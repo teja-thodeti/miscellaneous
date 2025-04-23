@@ -1,4 +1,4 @@
-1. `<DSA-Patterns>` to Save Your Brain 
+1. `<DSA-Patterns>` 
 DSA Pattern Logic ?? .this section `<DSA-Patterns>` might Help you Stop Busting your Head
 
  2.`<Leetcode-Solved>`
