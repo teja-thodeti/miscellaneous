@@ -5,3 +5,5 @@ class Solution:
             for j in range(i + 1, len(nums)):
                 if nums[i] + nums[j] == target:
                     return [i, j]
+
+#Note:local compiler asks for the missing input code.This can work in Leetcode since input is provided through leetcode ADT/interface 
