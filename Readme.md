@@ -7,5 +7,3 @@ problems on LeetCode  Solved (currently `Number`) mostly using base time complex
 3.`<pyprojects>` 
 Python Projects for the Bored and Curious 🐍
 Some basic Python projects <PyProjects>
-
-*Dontreadme.md* — youre supposed to read it. Thats the whole point. 🙄
