@@ -1,0 +1,36 @@
+📚 Core DSA Topics:
+Arrays
+
+Strings
+
+Hashing (HashMap/Set)
+
+Linked List
+
+Stack
+
+Queue (and variations like Circular, Deque)
+
+Recursion (the cult of brain-melting)
+
+Trees (Binary Trees, BSTs, Traversals)
+
+Heaps / Priority Queues
+
+Graphs (BFS, DFS, etc.)
+
+Dynamic Programming (aka brain gym)
+
+Greedy
+
+Sliding Window / Two Pointers
+
+Backtracking
+
+Tries (autocomplete magic)
+
+Union Find / Disjoint Sets
+
+Bit Manipulation
+
+Segment Trees / Fenwick Trees (advanced stuff)
