@@ -2,7 +2,7 @@
 DSA Patterns .this section `<DSA-Patterns>`
 
 2.`<Leetcode-Solved>`
-problems on LeetCode  Solved (currently `Few`) mostly using base time complexity. (might Help you Stop Busting your Head.)
+problems on LeetCode  Solved (currently `Few`) mostly base complexity.
 
 3.`<pyprojects>` 
 Python Projects ,Bored and Curious 🐍
