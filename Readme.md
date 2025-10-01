@@ -6,4 +6,4 @@ problems on LeetCode  Solved (currently `Few`) mostly base complexity.
 
 3.`<pyprojects>` 
 Python Projects ,Bored and Curious 🐍
-Some basic Python projects <PyProjects>
+Some basic projects 
