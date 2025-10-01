@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <style>
+            body{
+            background-color:rgb(25,25,25);
+            }
+            button {   
+            height:auto;     
+            border-radius: 50%;  
+            padding: 0;              
+            cursor: pointer;   
+            }
+            .reset-button{
+                display:block;
+                margin:50px;
+                margin-left:0px;
+                height:50px;
+                border-radius:5%;
+                padding: 10px;
+            }
+            .title{
+                font-size:30px;
+                color:white;
+                font-weight:bold;
+            }
+            .icon1,.icon2,.icon3{
+                height: 100px;   
+                width: 100px;     
+                border-radius: 50%;  
+                object-fit: cover;
+                padding:20px;
+            }
+                
+            
+        </style>
+    </head>
+    <body>
+        <p class="title" >Rock Paper Scissors</p>
+        <button class="button" onclick="play('rock')"><img src="rock.png" class="icon1"></button>
+        <button class="button" onclick="play('paper')"><img src="paper.png" class="icon2"></button>
+        <button class="button" onclick="play('scissors')"><img src="scissors.png" class="icon3"></button>
+        <button class="reset-button" onclick="reset()">reset score</button>
+    </body>
+
+    <script>
+        const score={
+            user:0,
+            ultron: 0,
+            ties:0,
+        };
+        let resett=1;
+        function play(user){
+            const choices=['rock','paper','scissors'];
+            const choice=Math.floor(Math.random()*3);
+            const computer=choices[choice];
+            let result='';
+            if (user===computer){
+                result='It\'s a Tie!'
+            }else if((user==='rock' && computer==='scissors')||
+            (user==='paper' && computer==='rock')||
+            (user==='scissors' && computer==='paper')){
+                result='You win'
+            }else{
+                result='you lose'
+            }
+            if (result==='you lose'){
+                score.ultron+=1;
+            }else if(result==='You win'){
+                score.user+=1;
+            }
+            if (score.user===10){
+                alert("YOU win");
+            }
+            if(score.ultron===10){
+                alert("You loose");
+            }
+            alert(`you've choosen ${user} and computer have choosen ${computer}.  ${result}. 
+your score: ${score.user} Computer score: ${score.ultron}`)
+        }
+        function reset(){
+            if (resett==0){
+                alert('Already used')
+            }
+            if (resett===1){
+                score.ultron=0;
+                score.user=0;
+                alert('Scores have been resett.cant be used again⏳' );
+                resett=0
+            }
+        }
+    </script>
+</html>
